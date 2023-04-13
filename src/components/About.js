@@ -1,4 +1,4 @@
-import ImageDisplay from "./water";
+import ImageDisplay from "./mypic";
 const Home = () => {
     return (
         <><><div className="container"><div className="secondpageContainer-left">

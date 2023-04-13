@@ -159,3 +159,7 @@ body {
   border-radius: 40px;
   padding: 0.5rem;
 }
+.mt-3 {
+  width: 300px;
+  margin-left: 20px;
+}

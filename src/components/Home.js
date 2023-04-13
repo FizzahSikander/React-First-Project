@@ -1,4 +1,4 @@
-import ImageDisplay from "./water";
+import ImageDisplay from "./mypic";
 import Button from "./Button";
 
 const Home = () => {

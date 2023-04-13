@@ -1,4 +1,4 @@
-import water from "../images/water.png";
+import mypic from "../images/pic.png";
 const ImageDisplay = () => {
     return (
         <div
@@ -9,7 +9,7 @@ const ImageDisplay = () => {
                 flexDirection: "column",
             }}
         >
-            <img src={water} alt="Water mask picture" height={400} width={350} />
+            <img src={mypic} alt="My picture" height={400} width={350} />
         </div>
     );
 };
