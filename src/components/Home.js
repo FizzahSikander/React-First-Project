@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Home = () => {
     return (
-        <><div className="secondpageContainer-left">
+        <><div className="container"><div className="secondpageContainer-left">
             <h2 className="secondpage_container-title">Hello</h2>
             <p className="secondpage_container-info">I'm Fizzah Sikander, a junior Front End Developer currently enrolled in
                 a comprehensive program at Sundsgården Folkhögskolan. With a background in engineering and teaching, I
@@ -15,8 +15,8 @@ const Home = () => {
                 Thank you for your time and consideration, and I look forward to discussing any potential internship
                 opportunities with you soon!
             </p>
-            <Button/>
-        </div><ImageDisplay /></>
+            <Button />
+        </div><ImageDisplay /></div></>
     );
 };
 export default Home;
