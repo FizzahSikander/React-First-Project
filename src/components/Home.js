@@ -15,7 +15,7 @@ const Home = () => {
                 Thank you for your time and consideration, and I look forward to discussing any potential internship
                 opportunities with you soon!
             </p>
-            <Button />
+            <a href="About"><Button /></a>
         </div><ImageDisplay /></div></>
     );
 };

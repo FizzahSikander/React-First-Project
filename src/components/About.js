@@ -2,31 +2,19 @@ import ImageDisplay from "./water";
 const Home = () => {
     return (
         <><><div className="container"><div className="secondpageContainer-left">
-            <h2 className="secondpage_container-title">Hello</h2>
-            <p className="secondpage_container-info">I'm Fizzah Sikander, a junior Front End Developer currently enrolled in
-                a comprehensive program at Sundsgården Folkhögskolan. With a background in engineering and teaching, I
-                bring a methodical approach to problem-solving and effective communication to my work. I am passionate
-                about designing and coding, and always eager to collaborate with fellow developers to enhance my skills.As of June 5th, 2023, I am seeking an internship opportunity with a
-                company where I can continue to grow and learn in a professional setting. I invite you to review my
-                profile and consider me as a valuable addition to your team. You can download my CV for a comprehensive
-                overview of my qualifications.
-                Thank you for your time and consideration, and I look forward to discussing any potential internship
-                opportunities with you soon!
+            <h2 className="secondpage_container-title">WHY FRONT END</h2>
+            <p className="secondpage_container-info">As a Front End Developer, I love working
+                in this field because it allows me to combine my passion for creativity and problem-solving.
+                I enjoy the challenge of taking a design concept and turning it into a fully functional and visually stunning website or application. Moreover, the constantly evolving nature of the field means that there is always something new to learn and explore, which keeps me engaged and motivated.
             </p>
         </div><ImageDisplay /></div>
-        </><><div className="secondpageContainer-left">
-            <h2 className="secondpage_container-title">Hello</h2>
-            <p className="secondpage_container-info">I'm Fizzah Sikander, a junior Front End Developer currently enrolled in
-                a comprehensive program at Sundsgården Folkhögskolan. With a background in engineering and teaching, I
-                bring a methodical approach to problem-solving and effective communication to my work. I am passionate
-                about designing and coding, and always eager to collaborate with fellow developers to enhance my skills.As of June 5th, 2023, I am seeking an internship opportunity with a
-                company where I can continue to grow and learn in a professional setting. I invite you to review my
-                profile and consider me as a valuable addition to your team. You can download my CV for a comprehensive
-                overview of my qualifications.
-                Thank you for your time and consideration, and I look forward to discussing any potential internship
-                opportunities with you soon!
+        </><><div className="container"><div className="secondpageContainer-left">
+            <h2 className="secondpage_container-title">WHAT I CAN OFFER</h2>
+            <p className="secondpage_container-info">As a Front End Developer, I bring a unique combination of technical expertise and creative problem-solving skills to the table. I am proficient in HTML, CSS, and JavaScript, and have experience working with a variety of frameworks and libraries.But my value to the company goes beyond just technical skills. I am also passionate about creating visually appealing and user-friendly interfaces that deliver a seamless user experience. Additionally, my strong attention to detail and ability to collaborate effectively with designers and back-end developers allow me to deliver high-quality work that meets the needs of both the client and end-users.
+                Furthermore, I am committed to staying up-to-date with the latest front-end development trends and techniques, and I am always looking for ways to improve my skills and knowledge.
+                Overall, as a Front End Developer, I can offer the company my technical expertise, creative problem-solving skills, and commitment to delivering high-quality work that meets the needs of both the client and end-users.
             </p>
-        </div><ImageDisplay /></></>
+        </div><ImageDisplay /></div></></>
     );
 };
 export default Home;
