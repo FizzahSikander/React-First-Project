@@ -1,5 +1,7 @@
 import ImageDisplay from "./mypic";
 import Button from "./Button";
+import picone from "../images/picture.webp";
+
 
 const Home = () => {
     return (
@@ -16,7 +18,7 @@ const Home = () => {
                 opportunities with you soon!
             </p>
             <a href="About"><Button /></a>
-        </div><ImageDisplay /></div></>
+        </div><ImageDisplay picture={picone} /></div></>
     );
 };
 export default Home;

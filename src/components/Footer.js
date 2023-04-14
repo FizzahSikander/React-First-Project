@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const Footer = () => {
     return (
-        <header className="header">
+        <header className="header footer">
             <nav>
                 <ul>
                     <li><Link className="links" to="/">Linkedin</Link></li>

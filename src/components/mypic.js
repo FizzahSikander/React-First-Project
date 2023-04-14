@@ -1,5 +1,4 @@
-import mypic from "../images/pic.png";
-const ImageDisplay = () => {
+const ImageDisplay = ({picture}) => {
     return (
         <div
             style={{
@@ -9,8 +8,9 @@ const ImageDisplay = () => {
                 flexDirection: "column",
             }}
         >
-            <img src={mypic} alt="My picture" height={400} width={350} />
+            <img src={picture} alt="My picture" height={400} width={350} />
         </div>
     );
 };
 export default ImageDisplay;
+
