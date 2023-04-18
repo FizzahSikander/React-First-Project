@@ -1,16 +1,17 @@
 import { useState } from "react";
-
+import Modal from "./Modal";
 const ContactMe = ({ }) => {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
   const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState(false);
   const handleSubmit = (event) => {
     event.preventDefault();
     setSubmitted(true);
   }
   return (
-    <div>
+    <><div>
       <form onSubmit={handleSubmit} className="mt-3">
         <div className="form-group mb-3">
           <label className="form-label">Name</label>
@@ -19,8 +20,7 @@ const ContactMe = ({ }) => {
             className="form-control"
             placeholder=""
             value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
+            onChange={(e) => setName(e.target.value)} />
         </div>
         <div className="form-group mb-3">
           <label className="form-label">Email</label>
@@ -29,8 +29,7 @@ const ContactMe = ({ }) => {
             className="form-control"
             placeholder="Enter email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
+            onChange={(e) => setEmail(e.target.value)} />
         </div>
 
         <div className="form-group mb-3">
@@ -40,8 +39,7 @@ const ContactMe = ({ }) => {
             className="form-control"
             placeholder=""
             value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          />
+            onChange={(e) => setMessage(e.target.value)} />
         </div>
 
         <button className="btn btn-primary">
@@ -57,7 +55,17 @@ const ContactMe = ({ }) => {
           <p>Message: {message}</p>
         </div>
       )}
-    </div >
+    </div><div style={{ color: "white" }} className="containermodal">
+        {status && (
+          <Modal close={() => setStatus(false)}>
+            <div className="containermodal">
+              <p>This is modal</p>
+            </div>
+          </Modal>
+        )}
+        <button onClick={() => setStatus(true)} className="modal-btn">Click me</button>
+      </div></>
   );
 };
+
 export default ContactMe;
