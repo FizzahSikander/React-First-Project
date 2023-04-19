@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   ALIGN-SELF: center;
-  COLOR: SANDYBROWN;
+  COLOR: orange;
 }
 
 body {
@@ -26,7 +26,7 @@ body {
 
 .header {
   width: 100%;
-  background-color: blueviolet;
+  background-color: wheat;
   height: 5rem;
   padding: 0 10%;
   display: flex;
@@ -44,27 +44,28 @@ body {
   align-items: center;
   padding: 0;
   margin: 0;
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 .header li {
   margin-top: 1.5rem;
-  color: wheat;
+  color: black;
 }
 
 .links {
   margin: 0 1rem;
-  color: white;
+  color: black;
   text-decoration: none;
   text-align: center;
+  font-size: 25px;
 }
 
 .secondpage_container-title {
   font-family: 'Aleo';
   font-style: normal;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 26px;
   /* identical to box height, or 72% */
   color: black;
@@ -74,7 +75,7 @@ body {
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
   /* or 162% */
   max-width: 560px;
@@ -91,7 +92,7 @@ body {
 }
 
 .containerone {
-  background-color: pink;
+  background-color: white;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -101,6 +102,12 @@ body {
 
 .footer {
   margin-top: auto;
+  width: 100%;
+  background-color: blueviolet;
+  height: 5rem;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .overlay {
@@ -125,32 +132,57 @@ body {
   padding: 2rem;
   position: relative;
 }
+
 .close {
   display: flex;
   margin-left: auto;
   font-size: 40px;
   cursor: pointer;
 }
+
 .containermodal {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-p {
-  font-size: 2.5rem;
-  font-weight: 600;
-}
-
 .modal-btn {
+  margin-top: 50px;
   border-radius: 40px;
   padding: 1rem 2rem;
-  font-size: 40px;
+  font-size: 20px;
   letter-spacing: 1px;
   font-weight: 600;
   cursor: pointer;
+  background-color: wheat;
 }
 
 .modal-btn:hover {
-  background-color: pink;
+  background-color: blueviolet;
+}
+
+.footericons {
+  font-size: 30px;
+}
+
+.footericons:hover {
+  background-color: wheat;
+}
+
+.button {
+  background-color: wheat;
+  height: 50px;
+  width: 100px;
+  color: black;
+}
+
+.new {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.mt-3 {
+  margin-left: 50px;
 }

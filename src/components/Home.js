@@ -1,8 +1,8 @@
 import ImageDisplay from "./mypic";
 import Button from "./Button";
-import picone from "../images/picture.webp";
+import picOne from "../images/picture.webp";
 
-
+/*import picture from images and give it name const picOne*/
 const Home = () => {
     return (
         <><div className="container"><div className="secondpageContainer-left">
@@ -17,8 +17,8 @@ const Home = () => {
                 Thank you for your time and consideration, and I look forward to discussing any potential internship
                 opportunities with you soon!
             </p>
-            <a href="About"><Button /></a>
-        </div><ImageDisplay picture={picone} /></div></>
+            <a href="About"><Button/></a>
+        </div><ImageDisplay picture={picOne} /></div></>
     );
 };
 export default Home;

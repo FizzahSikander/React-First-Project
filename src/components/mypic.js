@@ -1,3 +1,5 @@
+/*define properties of image to be displayed here*/
+{/*this image is used in main home page*/}
 const ImageDisplay = ({picture}) => {
     return (
         <div

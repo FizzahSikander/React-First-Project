@@ -1,15 +1,26 @@
-import { Link } from "react-router-dom";
+/*imported react icons and installed react icons first in terminal*/
+import { Link } from 'react-router-dom';
+import { AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
+import { BsBrowserChrome } from "react-icons/bs";
 const Footer = () => {
     return (
-        <header className="header footer">
-            <nav>
-                <ul>
-                    <li><Link className="links" to="/">Linkedin</Link></li>
-                    <li><Link className="links" to="/">GitHub</Link></li>
-                    <li><Link className="links" to="/">Webpage</Link></li>
-                </ul>
-            </nav>
-        </header>
+        <footer className="footer">
+            
+                        <a><Link className="links" to="/"><AiFillGithub className="footericons" />
+
+                        </Link></a>
+                    
+                        <a><Link className="links" to="/"><AiFillLinkedin className="footericons" />
+                        </Link></a>
+                
+                       <a><Link className="links" to="/"><BsBrowserChrome className="footericons"/>
+                        </Link></a>
+            
+            
+            
+        </footer>
     );
 };
+
 export default Footer;

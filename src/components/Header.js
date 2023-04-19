@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 const Header = () => {
     return (
         <header className="header">
-            <a href="http://localhost:3000">Fizzah Sikander</a>
+            {/*name is linked with landing page*/}
+            <a className="links" href="http://localhost:3000">Fizzah Sikander</a>
             <nav>
                 <ul>
                     <li><Link className="links" to="/About">About</Link></li>
